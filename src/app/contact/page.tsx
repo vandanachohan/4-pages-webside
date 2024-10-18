@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 function Contact() {
@@ -6,15 +5,16 @@ function Contact() {
     <div>
       <h1>Get in Touch</h1>
       <form>
-        <label form="name">Name:</label>
+        <label htmlFor="name">Name:</label> 
         <input type="text" id="name" name="name" />
-        <label form="email">Email:</label>
+        
+        <label htmlFor="email">Email:</label> 
         <input type="email" id="email" name="email" />
-        <button>Send</button>
+        
+        <button type="submit">Send</button> 
       </form>
     </div>
   );
 }
 
 export default Contact;
-

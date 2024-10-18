@@ -2,27 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-body {background-color: rgb(214, 205, 205);
-  font-family: Open Sans, sans-serif;
+body {
+  background-color: rgb(134, 118, 118);
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
   text-decoration: none;
   color: #3498db;
 }
-label{
-  background-color: rgb(138, 79, 79);
 
+label {
+  background-color: rgb(138, 79, 79);
 }
 
-form{
-margin: 1px; ;
-color-scheme: black;
-background-color: rgb(200, 245, 230);
+form {
+  margin: 1px;
+  color-scheme: dark; 
+  background-color: rgb(200, 245, 230);
+}
+
+
+:root {
+  --primary-bg-color: rgb(134, 118, 118);
+  --secondary-bg-color: rgb(200, 245, 230);
+  --link-color: #3498db;
+  --label-bg-color: rgb(138, 79, 79);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+label {
+  background-color: var(--label-bg-color);
+}
+
+form {
+  background-color: var(--secondary-bg-color);
 }

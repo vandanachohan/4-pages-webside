@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function About() {
   return (
     <div>
       <h1>About Us</h1>
-      <p>We're passionate about uncovering hidden gems</p>
+      <p>We are passionate about uncovering hidden gems.</p>
       <p>Meet our team:</p>
       <ul>
         <li>
@@ -12,7 +12,7 @@ function About() {
           <p>Founder & CEO</p>
         </li>
         <li>
-          <h2>Anmol amarsi</h2>
+          <h2>Anmol Amarsi</h2> 
           <p>Travel Expert</p>
         </li>
       </ul>
@@ -21,4 +21,3 @@ function About() {
 }
 
 export default About;
-
